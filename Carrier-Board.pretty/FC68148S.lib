@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model FC68148S
+#/308399/24164/2.19/4/4/Connector
+DEF FC68148S J 0 30 Y Y 1 F N
+F0 "J" 450 150 50 H V C CNN
+F1 "FC68148S" 450 -250 50 H V C CNN
+F2 "FC68148S_2" 450 -350 50 H I C CNN
+F3 "http://www.cliffuk.co.uk/products/dcconnectors/FC68148S.pdf" 450 -450 50 H I C CNN
+F4 "CLIFF ELECTRONIC COMPONENTS - FC68148S - DC  SOCKET, SMD, DC-10AS, 2.1MM PIN" 450 -550 50 H I C CNN "Description"
+F5 "RS" 450 -650 50 H I C CNN "Supplier_Name"
+F6 "" 450 -750 50 H I C CNN "RS Part Number"
+F7 "CLIFF ELECTRONIC COMPONENTS" 450 -850 50 H I C CNN "Manufacturer_Name"
+F8 "FC68148S" 450 -950 50 H I C CNN "Manufacturer_Part_Number"
+F9 "" 450 -1050 50 H I C CNN "Allied_Number"
+F10 "" 450 -1150 50 H I C CNN "Other Part Number"
+F11 "" 750 -1250 50 H I C CNN "Height"
+DRAW
+S 200 100 700 -200 0 0 10 f
+X 1(1) 1 0 0 200 R 50 50 0 0 U
+X 1(2) 2 0 -100 200 R 50 50 0 0 U
+X 2 3 900 0 200 L 50 50 0 0 U
+X 3 4 900 -100 200 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+#End Library
