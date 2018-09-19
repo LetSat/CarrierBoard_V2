@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Carrier-Board-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -25,7 +26,7 @@ F 3 "" H 2500 2850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:GNDREF #PWR01
+L Carrier-Board-rescue:GNDREF-BusSimulator-cache #PWR01
 U 1 1 59F6A60F
 P 2325 1575
 F 0 "#PWR01" H 2325 1325 50  0001 C CNN
@@ -36,7 +37,7 @@ F 3 "" H 2325 1575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:R R1
+L Carrier-Board-rescue:R-BusSimulator-cache R1
 U 1 1 59F6ABD8
 P 3150 3550
 F 0 "R1" V 3230 3550 50  0000 C CNN
@@ -47,7 +48,7 @@ F 3 "" H 3150 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:R R2
+L Carrier-Board-rescue:R-BusSimulator-cache R2
 U 1 1 59F6ACFA
 P 3150 3850
 F 0 "R2" V 3230 3850 50  0000 C CNN
@@ -58,7 +59,7 @@ F 3 "" H 3150 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:GNDA #PWR02
+L Carrier-Board-rescue:GNDA-BusSimulator-cache #PWR02
 U 1 1 59F6AEAC
 P 3150 4000
 F 0 "#PWR02" H 3150 3750 50  0001 C CNN
@@ -69,7 +70,7 @@ F 3 "" H 3150 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:R R3
+L Carrier-Board-rescue:R-BusSimulator-cache R3
 U 1 1 59F6AF4C
 P 2650 1500
 F 0 "R3" V 2730 1500 50  0000 C CNN
@@ -80,7 +81,7 @@ F 3 "" H 2650 1500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BusSimulator-cache:GNDA #PWR03
+L Carrier-Board-rescue:GNDA-BusSimulator-cache #PWR03
 U 1 1 59F6AF94
 P 1800 3250
 F 0 "#PWR03" H 1800 3000 50  0001 C CNN
@@ -91,7 +92,7 @@ F 3 "" H 1800 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:R R4
+L Carrier-Board-rescue:R-BusSimulator-cache R4
 U 1 1 59FA907E
 P 3075 1950
 F 0 "R4" V 3155 1950 50  0000 C CNN
@@ -102,7 +103,7 @@ F 3 "" H 3075 1950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BusSimulator-cache:GNDA #PWR04
+L Carrier-Board-rescue:GNDA-BusSimulator-cache #PWR04
 U 1 1 59FA90DC
 P 3300 2000
 F 0 "#PWR04" H 3300 1750 50  0001 C CNN
@@ -135,7 +136,7 @@ F 3 "" H 2500 1350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L BusSimulator-cache:+5V #PWR05
+L Carrier-Board-rescue:+5V-BusSimulator-cache #PWR05
 U 1 1 59FAA2C5
 P 3150 2800
 F 0 "#PWR05" H 3150 2650 50  0001 C CNN
@@ -157,7 +158,7 @@ F 3 "" H 2450 5850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:GNDREF #PWR06
+L Carrier-Board-rescue:GNDREF-BusSimulator-cache #PWR06
 U 1 1 59FAACBA
 P 2275 4575
 F 0 "#PWR06" H 2275 4325 50  0001 C CNN
@@ -168,7 +169,7 @@ F 3 "" H 2275 4575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:R R5
+L Carrier-Board-rescue:R-BusSimulator-cache R5
 U 1 1 59FAACC0
 P 3100 6550
 F 0 "R5" V 3180 6550 50  0000 C CNN
@@ -179,7 +180,7 @@ F 3 "" H 3100 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:R R6
+L Carrier-Board-rescue:R-BusSimulator-cache R6
 U 1 1 59FAACC6
 P 3100 6850
 F 0 "R6" V 3180 6850 50  0000 C CNN
@@ -190,7 +191,7 @@ F 3 "" H 3100 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:GNDA #PWR07
+L Carrier-Board-rescue:GNDA-BusSimulator-cache #PWR07
 U 1 1 59FAACCC
 P 3100 7000
 F 0 "#PWR07" H 3100 6750 50  0001 C CNN
@@ -201,7 +202,7 @@ F 3 "" H 3100 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:R R7
+L Carrier-Board-rescue:R-BusSimulator-cache R7
 U 1 1 59FAACD2
 P 2600 4500
 F 0 "R7" V 2680 4500 50  0000 C CNN
@@ -212,7 +213,7 @@ F 3 "" H 2600 4500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BusSimulator-cache:GNDA #PWR08
+L Carrier-Board-rescue:GNDA-BusSimulator-cache #PWR08
 U 1 1 59FAACD8
 P 1750 6250
 F 0 "#PWR08" H 1750 6000 50  0001 C CNN
@@ -223,7 +224,7 @@ F 3 "" H 1750 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:R R8
+L Carrier-Board-rescue:R-BusSimulator-cache R8
 U 1 1 59FAACF4
 P 3025 4950
 F 0 "R8" V 3105 4950 50  0000 C CNN
@@ -234,7 +235,7 @@ F 3 "" H 3025 4950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BusSimulator-cache:GNDA #PWR09
+L Carrier-Board-rescue:GNDA-BusSimulator-cache #PWR09
 U 1 1 59FAACFB
 P 3250 5000
 F 0 "#PWR09" H 3250 4750 50  0001 C CNN
@@ -267,7 +268,7 @@ F 3 "" H 2450 4350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L BusSimulator-cache:+3.3V #PWR010
+L Carrier-Board-rescue:+3.3V-BusSimulator-cache #PWR010
 U 1 1 59FAAF36
 P 3100 5800
 F 0 "#PWR010" H 3100 5650 50  0001 C CNN
@@ -282,7 +283,7 @@ PCE3895CT-ND
 Text Label 2100 3650 0    60   ~ 0
 PCE3900CT-ND
 $Comp
-L BusSimulator-cache:GNDREF #PWR011
+L Carrier-Board-rescue:GNDREF-BusSimulator-cache #PWR011
 U 1 1 59FACA7B
 P 3450 2550
 F 0 "#PWR011" H 3450 2300 50  0001 C CNN
@@ -293,7 +294,7 @@ F 3 "" H 3450 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:GNDREF #PWR012
+L Carrier-Board-rescue:GNDREF-BusSimulator-cache #PWR012
 U 1 1 59FACBAF
 P 3500 5500
 F 0 "#PWR012" H 3500 5250 50  0001 C CNN
@@ -304,7 +305,7 @@ F 3 "" H 3500 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:GNDREF #PWR013
+L Carrier-Board-rescue:GNDREF-BusSimulator-cache #PWR013
 U 1 1 59FACE9C
 P 3000 3550
 F 0 "#PWR013" H 3000 3300 50  0001 C CNN
@@ -315,7 +316,7 @@ F 3 "" H 3000 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:GNDREF #PWR014
+L Carrier-Board-rescue:GNDREF-BusSimulator-cache #PWR014
 U 1 1 59FAD007
 P 2250 1250
 F 0 "#PWR014" H 2250 1000 50  0001 C CNN
@@ -326,7 +327,7 @@ F 3 "" H 2250 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:GNDREF #PWR015
+L Carrier-Board-rescue:GNDREF-BusSimulator-cache #PWR015
 U 1 1 59FB82F0
 P 2250 4200
 F 0 "#PWR015" H 2250 3950 50  0001 C CNN
@@ -337,7 +338,7 @@ F 3 "" H 2250 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:GNDREF #PWR016
+L Carrier-Board-rescue:GNDREF-BusSimulator-cache #PWR016
 U 1 1 59FB843A
 P 2950 6550
 F 0 "#PWR016" H 2950 6300 50  0001 C CNN
@@ -531,7 +532,7 @@ mCOM_12V
 Text GLabel 15450 9150 0    51   Input ~ 0
 mCOM_GND
 $Comp
-L BusSimulator-cache:+12V #PWR017
+L Carrier-Board-rescue:+12V-BusSimulator-cache #PWR017
 U 1 1 5A040DA3
 P 2500 1500
 F 0 "#PWR017" H 2500 1350 50  0001 C CNN
@@ -542,7 +543,7 @@ F 3 "" H 2500 1500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BusSimulator-cache:+12V #PWR018
+L Carrier-Board-rescue:+12V-BusSimulator-cache #PWR018
 U 1 1 5A040EAE
 P 2450 4500
 F 0 "#PWR018" H 2450 4350 50  0001 C CNN
@@ -553,7 +554,7 @@ F 3 "" H 2450 4500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BusSimulator-cache:+12V #PWR019
+L Carrier-Board-rescue:+12V-BusSimulator-cache #PWR019
 U 1 1 5A0413FE
 P 1250 1850
 F 0 "#PWR019" H 1250 1700 50  0001 C CNN
@@ -564,7 +565,7 @@ F 3 "" H 1250 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:GNDREF #PWR020
+L Carrier-Board-rescue:GNDREF-BusSimulator-cache #PWR020
 U 1 1 5A04143A
 P 900 1750
 F 0 "#PWR020" H 900 1500 50  0001 C CNN
@@ -598,7 +599,7 @@ I2C_DAT
 Text Notes 8450 1050 0    118  ~ 0
 Break out\n
 $Comp
-L BusSimulator-cache:LED D7
+L Carrier-Board-rescue:LED-BusSimulator-cache D7
 U 1 1 5A07DE5B
 P 6350 1500
 F 0 "D7" H 6350 1600 50  0000 C CNN
@@ -611,7 +612,7 @@ $EndComp
 Text Notes 4900 1050 0    118  ~ 0
 LED Indicators\n
 $Comp
-L BusSimulator-cache:LED D6
+L Carrier-Board-rescue:LED-BusSimulator-cache D6
 U 1 1 5A08439E
 P 6350 1800
 F 0 "D6" H 6350 1900 50  0000 C CNN
@@ -622,7 +623,7 @@ F 3 "" H 6350 1800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L BusSimulator-cache:LED D8
+L Carrier-Board-rescue:LED-BusSimulator-cache D8
 U 1 1 5A084441
 P 6350 2100
 F 0 "D8" H 6350 2200 50  0000 C CNN
@@ -643,7 +644,7 @@ Text Notes 5150 2150 0    60   ~ 0
 Text GLabel 6200 2100 0    51   Input ~ 0
 mCOM_5V_SBY
 $Comp
-L BusSimulator-cache:R R23
+L Carrier-Board-rescue:R-BusSimulator-cache R23
 U 1 1 5A0890AC
 P 6650 1500
 F 0 "R23" V 6730 1500 50  0000 C CNN
@@ -654,7 +655,7 @@ F 3 "" H 6650 1500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L BusSimulator-cache:R R24
+L Carrier-Board-rescue:R-BusSimulator-cache R24
 U 1 1 5A0891D7
 P 6650 1800
 F 0 "R24" V 6730 1800 50  0000 C CNN
@@ -665,7 +666,7 @@ F 3 "" H 6650 1800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L BusSimulator-cache:R R25
+L Carrier-Board-rescue:R-BusSimulator-cache R25
 U 1 1 5A0892AA
 P 6650 2100
 F 0 "R25" V 6730 2100 50  0000 C CNN
@@ -676,7 +677,7 @@ F 3 "" H 6650 2100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L BusSimulator-cache:GNDREF #PWR021
+L Carrier-Board-rescue:GNDREF-BusSimulator-cache #PWR021
 U 1 1 5A08977E
 P 7000 2500
 F 0 "#PWR021" H 7000 2250 50  0001 C CNN
@@ -695,7 +696,7 @@ Text Notes 15700 11050 0    79   ~ 0
 Text Notes 13350 11050 0    79   ~ 0
 Spring 2018\n\n
 $Comp
-L BusSimulator-cache:D_Zener D5
+L Carrier-Board-rescue:D_Zener-BusSimulator-cache D5
 U 1 1 5A07A33B
 P 6050 1800
 F 0 "D5" H 6050 1900 50  0000 C CNN
@@ -729,7 +730,7 @@ Text GLabel 1000 8650 0    60   Input ~ 0
 Text GLabel 1000 8750 0    60   Input ~ 0
 +3.3V
 $Comp
-L BusSimulator-cache:GNDREF #PWR022
+L Carrier-Board-rescue:GNDREF-BusSimulator-cache #PWR022
 U 1 1 5A0C1B77
 P 3700 8250
 F 0 "#PWR022" H 3700 8000 50  0001 C CNN
@@ -740,7 +741,7 @@ F 3 "" H 3700 8250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:GNDREF #PWR023
+L Carrier-Board-rescue:GNDREF-BusSimulator-cache #PWR023
 U 1 1 5A0C1C29
 P 3900 10650
 F 0 "#PWR023" H 3900 10400 50  0001 C CNN
@@ -751,7 +752,7 @@ F 3 "" H 3900 10650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:GNDREF #PWR024
+L Carrier-Board-rescue:GNDREF-BusSimulator-cache #PWR024
 U 1 1 5A0C1CDB
 P 4000 9450
 F 0 "#PWR024" H 4000 9200 50  0001 C CNN
@@ -762,7 +763,7 @@ F 3 "" H 4000 9450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:GNDREF #PWR025
+L Carrier-Board-rescue:GNDREF-BusSimulator-cache #PWR025
 U 1 1 5A0C1D8D
 P 4000 9050
 F 0 "#PWR025" H 4000 8800 50  0001 C CNN
@@ -773,7 +774,7 @@ F 3 "" H 4000 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:GNDREF #PWR026
+L Carrier-Board-rescue:GNDREF-BusSimulator-cache #PWR026
 U 1 1 5A0C1E3F
 P 4000 8750
 F 0 "#PWR026" H 4000 8500 50  0001 C CNN
@@ -784,7 +785,7 @@ F 3 "" H 4000 8750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:GNDREF #PWR027
+L Carrier-Board-rescue:GNDREF-BusSimulator-cache #PWR027
 U 1 1 5A0C1EF1
 P 4000 9850
 F 0 "#PWR027" H 4000 9600 50  0001 C CNN
@@ -805,7 +806,7 @@ SATA0_RX+
 Text GLabel 2150 9450 0    51   Input ~ 0
 SATA0_RX-
 $Comp
-L BusSimulator-cache:GNDREF #PWR028
+L Carrier-Board-rescue:GNDREF-BusSimulator-cache #PWR028
 U 1 1 5A0C49FB
 P 1800 10400
 F 0 "#PWR028" H 1800 10150 50  0001 C CNN
@@ -816,7 +817,7 @@ F 3 "" H 1800 10400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:GNDREF #PWR029
+L Carrier-Board-rescue:GNDREF-BusSimulator-cache #PWR029
 U 1 1 5A0C4BAB
 P 1900 10050
 F 0 "#PWR029" H 1900 9800 50  0001 C CNN
@@ -829,7 +830,7 @@ $EndComp
 Text Notes 850  7750 0    60   ~ 0
 Sata Connector\n
 $Comp
-L BusSimulator-cache:GNDREF #PWR030
+L Carrier-Board-rescue:GNDREF-BusSimulator-cache #PWR030
 U 1 1 5A0C6A3D
 P 1450 8950
 F 0 "#PWR030" H 1450 8700 50  0001 C CNN
@@ -840,7 +841,7 @@ F 3 "" H 1450 8950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:GNDREF #PWR031
+L Carrier-Board-rescue:GNDREF-BusSimulator-cache #PWR031
 U 1 1 5A0C6D48
 P 1500 9350
 F 0 "#PWR031" H 1500 9100 50  0001 C CNN
@@ -851,7 +852,7 @@ F 3 "" H 1500 9350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:R R32
+L Carrier-Board-rescue:R-BusSimulator-cache R32
 U 1 1 5A0C7549
 P 1600 8300
 F 0 "R32" V 1680 8300 50  0000 C CNN
@@ -862,7 +863,7 @@ F 3 "" H 1600 8300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:GNDREF #PWR032
+L Carrier-Board-rescue:GNDREF-BusSimulator-cache #PWR032
 U 1 1 5A0C77C7
 P 1600 8450
 F 0 "#PWR032" H 1600 8200 50  0001 C CNN
@@ -895,7 +896,7 @@ F 3 "" H 1100 8900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:GNDREF #PWR033
+L Carrier-Board-rescue:GNDREF-BusSimulator-cache #PWR033
 U 1 1 5A0DCFAA
 P 750 8350
 F 0 "#PWR033" H 750 8100 50  0001 C CNN
@@ -906,7 +907,7 @@ F 3 "" H 750 8350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:GNDREF #PWR034
+L Carrier-Board-rescue:GNDREF-BusSimulator-cache #PWR034
 U 1 1 5A0DD07C
 P 1100 9050
 F 0 "#PWR034" H 1100 8800 50  0001 C CNN
@@ -928,7 +929,7 @@ F 3 "" H 4500 8300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:GNDREF #PWR035
+L Carrier-Board-rescue:GNDREF-BusSimulator-cache #PWR035
 U 1 1 5A0DDC34
 P 4500 8450
 F 0 "#PWR035" H 4500 8200 50  0001 C CNN
@@ -939,7 +940,7 @@ F 3 "" H 4500 8450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:GNDREF #PWR036
+L Carrier-Board-rescue:GNDREF-BusSimulator-cache #PWR036
 U 1 1 5A0B68CF
 P 8750 1600
 F 0 "#PWR036" H 8750 1350 50  0001 C CNN
@@ -1102,7 +1103,7 @@ GBE0_MDI0+
 Text GLabel 7400 4950 2    51   Input ~ 0
 GBE0_CTREF(GND)
 $Comp
-L BusSimulator-cache:GNDREF #PWR037
+L Carrier-Board-rescue:GNDREF-BusSimulator-cache #PWR037
 U 1 1 5A6D828B
 P 6150 5750
 F 0 "#PWR037" H 6150 5500 50  0001 C CNN
@@ -1113,7 +1114,7 @@ F 3 "" H 6150 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:R R9
+L Carrier-Board-rescue:R-BusSimulator-cache R9
 U 1 1 5A6D8633
 P 5700 5600
 F 0 "R9" V 5780 5600 50  0000 C CNN
@@ -1124,7 +1125,7 @@ F 3 "" H 5700 5600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L BusSimulator-cache:R R10
+L Carrier-Board-rescue:R-BusSimulator-cache R10
 U 1 1 5A6D9C5A
 P 6650 5350
 F 0 "R10" V 6730 5350 50  0000 C CNN
@@ -1135,7 +1136,7 @@ F 3 "" H 6650 5350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L BusSimulator-cache:GNDREF #PWR038
+L Carrier-Board-rescue:GNDREF-BusSimulator-cache #PWR038
 U 1 1 5A6D9E6B
 P 7250 5450
 F 0 "#PWR038" H 7250 5200 50  0001 C CNN
@@ -1146,7 +1147,7 @@ F 3 "" H 7250 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:GNDREF #PWR039
+L Carrier-Board-rescue:GNDREF-BusSimulator-cache #PWR039
 U 1 1 5A6DAA22
 P 7300 5050
 F 0 "#PWR039" H 7300 4800 50  0001 C CNN
@@ -1157,7 +1158,7 @@ F 3 "" H 7300 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:GNDREF #PWR040
+L Carrier-Board-rescue:GNDREF-BusSimulator-cache #PWR040
 U 1 1 5A6DB372
 P 5150 4750
 F 0 "#PWR040" H 5150 4500 50  0001 C CNN
@@ -1243,7 +1244,7 @@ SYS_RESETn
 Text GLabel 14300 2450 0    51   Input ~ 0
 WAKE1n
 $Comp
-L BusSimulator-cache:R R11
+L Carrier-Board-rescue:R-BusSimulator-cache R11
 U 1 1 5A6E9EDA
 P 14550 850
 F 0 "R11" V 14630 850 50  0000 C CNN
@@ -1254,7 +1255,7 @@ F 3 "" H 14550 850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BusSimulator-cache:R R12
+L Carrier-Board-rescue:R-BusSimulator-cache R12
 U 1 1 5A6EA119
 P 14650 1600
 F 0 "R12" V 14730 1600 50  0000 C CNN
@@ -1265,7 +1266,7 @@ F 3 "" H 14650 1600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L BusSimulator-cache:R R13
+L Carrier-Board-rescue:R-BusSimulator-cache R13
 U 1 1 5A6EA1A0
 P 14650 2450
 F 0 "R13" V 14730 2450 50  0000 C CNN
@@ -1530,7 +1531,7 @@ Wire Wire Line
 	14400 2600 14400 2450
 Connection ~ 14400 2450
 $Comp
-L BusSimulator-cache:GNDREF #PWR041
+L Carrier-Board-rescue:GNDREF-BusSimulator-cache #PWR041
 U 1 1 5A6EC603
 P 14350 1300
 F 0 "#PWR041" H 14350 1050 50  0001 C CNN
@@ -1541,7 +1542,7 @@ F 3 "" H 14350 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:GNDREF #PWR042
+L Carrier-Board-rescue:GNDREF-BusSimulator-cache #PWR042
 U 1 1 5A6EC92F
 P 14400 2100
 F 0 "#PWR042" H 14400 1850 50  0001 C CNN
@@ -1552,7 +1553,7 @@ F 3 "" H 14400 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-cache:GNDREF #PWR043
+L Carrier-Board-rescue:GNDREF-BusSimulator-cache #PWR043
 U 1 1 5A6ECB43
 P 14400 3000
 F 0 "#PWR043" H 14400 2750 50  0001 C CNN

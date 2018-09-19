@@ -113,7 +113,7 @@ F 3 "" H 3300 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C2
+L Device:CP C2
 U 1 1 59FA9155
 P 3000 3400
 F 0 "C2" V 3075 3625 60  0000 C CNN
@@ -124,7 +124,7 @@ F 3 "" H 3000 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C1
+L Device:CP C1
 U 1 1 59FA9430
 P 2500 1350
 F 0 "C1" V 2525 1425 60  0000 C CNN
@@ -245,7 +245,7 @@ F 3 "" H 3250 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C4
+L Device:CP C4
 U 1 1 59FAAD03
 P 2950 6400
 F 0 "C4" V 3025 6625 60  0000 C CNN
@@ -256,7 +256,7 @@ F 3 "" H 2950 6400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C3
+L Device:CP C3
 U 1 1 59FAAD0F
 P 2450 4350
 F 0 "C3" V 2475 4425 60  0000 C CNN
@@ -873,7 +873,7 @@ F 3 "" H 1600 8450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C27
+L Device:CP C27
 U 1 1 5A0DCDF0
 P 1100 8500
 F 0 "C27" H 1250 8650 60  0000 C CNN
@@ -884,7 +884,7 @@ F 3 "" H 1100 8500 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CP C28
+L Device:CP C28
 U 1 1 5A0DCEC7
 P 1100 8900
 F 0 "C28" H 1250 9050 60  0000 C CNN
@@ -917,7 +917,7 @@ F 3 "" H 1100 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C29
+L Device:CP C29
 U 1 1 5A0DD5C0
 P 4500 8300
 F 0 "C29" H 4650 8450 60  0000 C CNN
@@ -950,7 +950,7 @@ F 3 "" H 8750 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x26_Odd_Even J3
+L Connector_Generic:Conn_02x26_Odd_Even J3
 U 1 1 5A6C2591
 P 11900 2050
 F 0 "J3" H 11950 3350 50  0000 C CNN
@@ -961,7 +961,7 @@ F 3 "" H 11900 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x26_Odd_Even J5
+L Connector_Generic:Conn_02x26_Odd_Even J5
 U 1 1 5A6C25B0
 P 12700 2050
 F 0 "J5" H 12750 3350 50  0000 C CNN
@@ -972,7 +972,7 @@ F 3 "" H 12700 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x09_Odd_Even J4
+L Connector_Generic:Conn_02x09_Odd_Even J4
 U 1 1 5A6C2649
 P 6100 5150
 F 0 "J4" H 6500 5300 50  0000 C CNN
@@ -987,7 +987,7 @@ F 7 "SI-51009-F" H 6500 3900 50  0001 C CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Barrel_Jack J2
+L Connector:Barrel_Jack J2
 U 1 1 5A6C7CD3
 P 1000 1350
 F 0 "J2" H 1000 1450 50  0000 C CNN
@@ -1004,7 +1004,7 @@ mCOM_RX
 Text GLabel 9800 1600 0    51   Input ~ 0
 mCOM_GND
 $Comp
-L Conn_01x06_Male J8
+L Connector:Conn_01x06_Male J8
 U 1 1 5A6CEF71
 P 10450 2400
 F 0 "J8" H 10450 2700 50  0000 C CNN
@@ -1015,7 +1015,7 @@ F 3 "" H 10450 2400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Conn_01x03_Male J7
+L Connector:Conn_01x03_Male J7
 U 1 1 5A6CF26A
 P 10000 1500
 F 0 "J7" H 10000 1700 50  0000 C CNN
@@ -1026,7 +1026,7 @@ F 3 "" H 10000 1500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Conn_01x03_Male J6
+L Connector:Conn_01x03_Male J6
 U 1 1 5A6CF317
 P 8950 1500
 F 0 "J6" H 8950 1700 50  0000 C CNN
@@ -1047,7 +1047,7 @@ WAKE1n
 Text GLabel 10250 2600 0    51   Input ~ 0
 SLEEPn
 $Comp
-L Conn_02x04_Odd_Even J9
+L Connector_Generic:Conn_02x04_Odd_Even J9
 U 1 1 5A6D35A7
 P 8900 2100
 F 0 "J9" H 8950 2300 50  0000 C CNN
@@ -1190,7 +1190,7 @@ GPO2
 Text GLabel 9200 2300 2    51   Input ~ 0
 GPO3
 $Comp
-L Conn_02x03_Odd_Even J10
+L Connector_Generic:Conn_02x03_Odd_Even J10
 U 1 1 5A6E3060
 P 9100 2950
 F 0 "J10" H 9150 3150 50  0000 C CNN
@@ -1276,7 +1276,7 @@ F 3 "" H 14650 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L SW_Push SW2
+L Switch:SW_Push SW2
 U 1 1 5A6EB714
 P 14400 1900
 F 0 "SW2" H 14450 2000 50  0000 L CNN
@@ -1287,7 +1287,7 @@ F 3 "" H 14400 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW_Push SW3
+L Switch:SW_Push SW3
 U 1 1 5A6EB78D
 P 14400 2800
 F 0 "SW3" H 14450 2900 50  0000 L CNN
@@ -1513,7 +1513,7 @@ Wire Wire Line
 	14400 1700 14400 1600
 Connection ~ 14400 1600
 $Comp
-L SW_Push SW1
+L Switch:SW_Push SW1
 U 1 1 5A6EB695
 P 14350 1100
 F 0 "SW1" H 14400 1200 50  0000 L CNN
