@@ -1631,9 +1631,9 @@ F 3 "" H 7150 8300 50  0001 C CNN
 	1    7150 8450
 	1    0    0    -1  
 $EndComp
-Text GLabel 7850 7800 2    51   Input ~ 0
+Text GLabel 7950 7450 2    51   Input ~ 0
 mCOM_TX
-Text GLabel 7850 7900 2    51   Input ~ 0
+Text GLabel 7950 7550 2    51   Input ~ 0
 mCOM_RX
 Text GLabel 7100 9150 3    51   Input ~ 0
 mCOM_GND
@@ -1878,4 +1878,73 @@ Wire Wire Line
 Wire Wire Line
 	5900 7500 5900 7800
 Connection ~ 5900 7800
+$Comp
+L BusSimulator-cache:LED D?
+U 1 1 5BC7EE2F
+P 7950 9650
+F 0 "D?" H 7950 9750 50  0000 C CNN
+F 1 "LED" H 7950 9550 50  0000 C CNN
+F 2 "Diodes_SMD:D_1206" H 7950 9650 50  0001 C CNN
+F 3 "" H 7950 9650 50  0001 C CNN
+	1    7950 9650
+	0    1    1    0   
+$EndComp
+$Comp
+L BusSimulator-cache:LED D?
+U 1 1 5BC7EE36
+P 8250 9650
+F 0 "D?" H 8250 9750 50  0000 C CNN
+F 1 "LED" H 8250 9550 50  0000 C CNN
+F 2 "Diodes_SMD:D_1206" H 8250 9650 50  0001 C CNN
+F 3 "" H 8250 9650 50  0001 C CNN
+	1    8250 9650
+	0    1    1    0   
+$EndComp
+Text Label 6400 8450 0    50   ~ 0
+VCCIO
+Text Label 8250 10050 2    50   ~ 0
+VCCIO
+Wire Wire Line
+	8250 10050 8250 9950
+Wire Wire Line
+	7950 9950 8250 9950
+Wire Wire Line
+	7950 9950 7950 9800
+Connection ~ 8250 9950
+Wire Wire Line
+	8250 9950 8250 9800
+Wire Wire Line
+	8250 9000 8250 8450
+Wire Wire Line
+	8250 8450 7750 8450
+Wire Wire Line
+	7750 8550 7950 8550
+Wire Wire Line
+	7950 8550 7950 9000
+$Comp
+L Device:R R?
+U 1 1 5BCF8D8B
+P 7950 9150
+F 0 "R?" V 7850 9150 50  0000 C CNN
+F 1 "27R" V 7950 9150 50  0000 C CNN
+F 2 "" V 7880 9150 50  0001 C CNN
+F 3 "~" H 7950 9150 50  0001 C CNN
+	1    7950 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5BCF8D92
+P 8250 9150
+F 0 "R?" V 8150 9150 50  0000 C CNN
+F 1 "27R" V 8250 9150 50  0000 C CNN
+F 2 "" V 8180 9150 50  0001 C CNN
+F 3 "~" H 8250 9150 50  0001 C CNN
+	1    8250 9150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7950 9300 7950 9500
+Wire Wire Line
+	8250 9500 8250 9300
 $EndSCHEMATC
