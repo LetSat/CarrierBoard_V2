@@ -1,3 +1,13 @@
 (sym_lib_table
   (lib (name Carrier-Board-rescue)(type Legacy)(uri ${KIPRJMOD}/Carrier-Board-rescue.lib)(options "")(descr ""))
+  (lib (name BusSimulator)(type Legacy)(uri ${KIPRJMOD}/BusSimulator.lib)(options "")(descr ""))
+  (lib (name BusSimulator-cache)(type Legacy)(uri ${KIPRJMOD}/BusSimulator-cache.lib)(options "")(descr ""))
+  (lib (name BusSimulator-rescue)(type Legacy)(uri ${KIPRJMOD}/BusSimulator-rescue.lib)(options "")(descr ""))
+  (lib (name Carrier-Board)(type Legacy)(uri ${KIPRJMOD}/Carrier-Board.lib)(options "")(descr ""))
+  (lib (name Carrier-Board-cache)(type Legacy)(uri ${KIPRJMOD}/Carrier-Board-cache.lib)(options "")(descr ""))
+  (lib (name FT232RQ)(type Legacy)(uri ${KIPRJMOD}/FT232RQ.lib)(options "")(descr ""))
+  (lib (name M22-6013005)(type Legacy)(uri ${KIPRJMOD}/M22-6013005.lib)(options "")(descr ""))
+  (lib (name mcd)(type Legacy)(uri ${KIPRJMOD}/mcd.lib)(options "")(descr ""))
+  (lib (name RS232_FTDI)(type Legacy)(uri ${KIPRJMOD}/RS232_FTDI.lib)(options "")(descr ""))
+  (lib (name SI-51009-F)(type Legacy)(uri ${KIPRJMOD}/SI-51009-F.lib)(options "")(descr ""))
 )
