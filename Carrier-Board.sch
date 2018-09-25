@@ -1596,7 +1596,7 @@ Wire Wire Line
 	7450 10700 7150 10700
 Connection ~ 7450 10800
 $Comp
-L BusSimulator-rescue:R R15
+L Carrier-Board-rescue:R-BusSimulator-rescue R15
 U 1 1 5BB25F1C
 P 6300 10250
 F 0 "R15" V 6200 10250 50  0000 C CNN
@@ -1615,7 +1615,7 @@ Wire Wire Line
 Text GLabel 6150 10000 1    50   Input ~ 0
 Reset#
 $Comp
-L BusSimulator-rescue:R R10
+L Carrier-Board-rescue:R-BusSimulator-rescue R10
 U 1 1 5BB3EBD3
 P 6000 10250
 F 0 "R10" V 6070 10296 50  0000 L CNN
@@ -1791,7 +1791,7 @@ Wire Wire Line
 Wire Wire Line
 	7950 7950 7950 7000
 $Comp
-L BusSimulator-rescue:LED D3
+L Carrier-Board-rescue:LED-BusSimulator-rescue D3
 U 1 1 5BABB0D8
 P 7950 6500
 F 0 "D3" V 7988 6383 50  0000 R CNN
@@ -1802,7 +1802,7 @@ F 3 "" H 7950 6500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BusSimulator-rescue:LED D2
+L Carrier-Board-rescue:LED-BusSimulator-rescue D2
 U 1 1 5BAD1E5C
 P 7750 6500
 F 0 "D2" V 7788 6383 50  0000 R CNN
@@ -1813,7 +1813,7 @@ F 3 "" H 7750 6500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BusSimulator-rescue:R R17
+L Carrier-Board-rescue:R-BusSimulator-rescue R17
 U 1 1 5BAD9A4D
 P 7750 6850
 F 0 "R17" H 7800 6900 50  0000 L CNN
@@ -1824,7 +1824,7 @@ F 3 "" H 7750 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-rescue:R R18
+L Carrier-Board-rescue:R-BusSimulator-rescue R18
 U 1 1 5BAD9B89
 P 7950 6850
 F 0 "R18" H 8020 6896 50  0000 L CNN
@@ -1920,7 +1920,7 @@ Wire Wire Line
 Wire Wire Line
 	6900 4500 7300 4500
 $Comp
-L BusSimulator-rescue:GNDREF #PWR0107
+L Carrier-Board-rescue:GNDREF-BusSimulator-rescue #PWR0107
 U 1 1 5BC5364F
 P 7300 4800
 F 0 "#PWR0107" H 7300 4550 50  0001 C CNN
@@ -1931,7 +1931,7 @@ F 3 "" H 7300 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BusSimulator-rescue:GNDREF #PWR0108
+L Carrier-Board-rescue:GNDREF-BusSimulator-rescue #PWR0108
 U 1 1 5BC5377A
 P 8100 5300
 F 0 "#PWR0108" H 8100 5050 50  0001 C CNN
@@ -1952,7 +1952,7 @@ mCOM_5V_SBY
 Wire Wire Line
 	6900 5500 7100 5500
 $Comp
-L BusSimulator-rescue:GNDREF #PWR0109
+L Carrier-Board-rescue:GNDREF-BusSimulator-rescue #PWR0109
 U 1 1 5BCD9D55
 P 6300 5800
 F 0 "#PWR0109" H 6300 5550 50  0001 C CNN
@@ -1980,7 +1980,7 @@ Wire Wire Line
 Wire Wire Line
 	6300 3700 6300 3900
 $Comp
-L BusSimulator-rescue:GNDREF #PWR0110
+L Carrier-Board-rescue:GNDREF-BusSimulator-rescue #PWR0110
 U 1 1 5BD25D30
 P 4950 4050
 F 0 "#PWR0110" H 4950 3800 50  0001 C CNN
@@ -1997,7 +1997,7 @@ Wire Wire Line
 Connection ~ 5650 5500
 NoConn ~ 6900 5400
 $Comp
-L BusSimulator-rescue:R R14
+L Carrier-Board-rescue:R-BusSimulator-rescue R14
 U 1 1 5BD56E81
 P 6200 9550
 F 0 "R14" V 6270 9596 50  0000 L CNN
@@ -2016,7 +2016,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 9550 6050 9550
 $Comp
-L BusSimulator-rescue:GNDREF #PWR0111
+L Carrier-Board-rescue:GNDREF-BusSimulator-rescue #PWR0111
 U 1 1 5BDA5099
 P 6050 6150
 F 0 "#PWR0111" H 6050 5900 50  0001 C CNN
